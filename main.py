@@ -5,10 +5,10 @@ from classes.video_id_provider import VideoIdProvider
 
 GPIO.setmode(GPIO.BCM)
 
-inPin1 = InputPin(4)
-inPin2 = InputPin(17)
-inPin3 = InputPin(18)
-inPin4 = InputPin(23)
+inPin1 = InputPin(23)
+inPin2 = InputPin(22)
+inPin3 = InputPin(27)
+inPin4 = InputPin(18)
 
 videoIdProvider = VideoIdProvider()
 livingRoom = ChromeCast('Living Room TV')
