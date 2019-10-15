@@ -1,7 +1,6 @@
 import pychromecast
 from pychromecast.controllers.youtube import YouTubeController
 
-
 class ChromeCast:
 
     # Initializer / Instance Attributes
