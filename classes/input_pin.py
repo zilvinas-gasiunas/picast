@@ -1,6 +1,5 @@
 import RPi.GPIO as GPIO
 
-
 class InputPin:
 
     # Initializer / Instance Attributes
